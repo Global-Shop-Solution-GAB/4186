@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SearchOptions>SearchHiddenText FindTextAtCursor FindSelectedText CycledSearch</SearchOptions>
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>408</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>61</Height>
+      </Size>
+      <X>0</X>
+      <Y>408</Y>
+      <Width>24</Width>
+      <Height>61</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>408</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.Form..Create</string>
+        <string>Gui.Form..Caption("Job Review Report")</string>
+        <string>Gui.Form..Size(5895,1785)</string>
+        <string>Gui.Form..MinX(0)</string>
+        <string>Gui.Form..MinY(0)</string>
+        <string>Gui.Form..Position(0,0)</string>
+        <string>Gui.Form..BackColor(-2147483633)</string>
+        <string>Gui.Form..MaxButton(False)</string>
+        <string>Gui.Form..MousePointer(0)</string>
+        <string>Gui.Form..Sizeable(False)</string>
+        <string>Gui.Form..Event(UnLoad,Unload)</string>
+        <string>Gui.Form.dtpStart.Create(DatePicker)</string>
+        <string>Gui.Form.dtpStart.Size(2370,285)</string>
+        <string>Gui.Form.dtpStart.Position(105,420)</string>
+        <string>Gui.Form.dtpEnd.Create(DatePicker)</string>
+        <string>Gui.Form.dtpEnd.Size(2370,285)</string>
+        <string>Gui.Form.dtpEnd.Position(2670,420)</string>
+        <string>Gui.Form.lbl1.Create(Label,"Beginning Date",True,1935,255,0,105,180,True,0,"Consolas",8,-986896,0)</string>
+        <string>Gui.Form.lbl2.Create(Label,"Ending Date",True,1935,255,0,2670,180,True,0,"Consolas",8,-986896,0)</string>
+        <string>Gui.Form.cmdRun.Create(Button)</string>
+        <string>Gui.Form.cmdRun.Size(1125,375)</string>
+        <string>Gui.Form.cmdRun.Position(105,870)</string>
+        <string>Gui.Form.cmdRun.Caption("Run")</string>
+        <string>Gui.Form.cmdRun.FontName("Consolas")</string>
+        <string>Gui.Form.cmdRun.Event(Click,cmdRun_Click)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Variable.Global.dStart.Declare(Date,01/01/1900)</string>
+        <string>Variable.Global.iC.Declare(Long,0)</string>
+        <string>Variable.Global.dEnd.Declare(Date,01/01/1900)</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.iYear.Declare(Long)</string>
+        <string>F.ODBC.Connection!conX.OpenConnection(v.Ambient.PDSN,v.Ambient.PUser,v.Ambient.PPass) </string>
+        <string>'How we running?</string>
+        <string>F.Intrinsic.Control.If(v.Ambient.IsInTaskScheduler,=,True)</string>
+        <string>	'supress output. </string>
+        <string>	Function.Intrinsic.UI.SuppressOutput(True)</string>
+        <string>	'we set our dates to jan 1 to today.</string>
+        <string>	v.Global.dEnd.Set(v.Ambient.Date) </string>
+        <string>	F.Intrinsic.Date.Year(v.Ambient.Date,v.Local.iYear) </string>
+        <string>	F.Intrinsic.Date.DateSerial(v.Local.iYear,1,1,v.Global.dStart)</string>
+        <string>	Function.Intrinsic.Control.CallSub(load_wo)</string>
+        <string>Function.Intrinsic.Control.Else </string>
+        <string>	Gui.Form.dtpStart.Value(v.Ambient.Date) </string>
+        <string>	Gui.Form.dtpEnd.Value(v.Ambient.Date) 	</string>
+        <string>	'ask the user for a date. </string>
+        <string>	gui.Form..Show</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4186_Job_Review_XLS.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(Unload) </string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.Unload.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Unload_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>F.ODBC.Connection!conX.Close </string>
+        <string>F.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Unload_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4186_Job_Review_XLS.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.End</string>
+        <string />
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Unload.End</string>
+        <string />
+        <string>Program.Sub.cmdRun_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Load_WO_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>'they came into this by clicking the run button on the screen. </string>
+        <string>'set the date, make sure they valid, then call the Load_WO</string>
+        <string>v.Global.dStart.Set(v.Screen.Form!dtpStart.Value) </string>
+        <string>v.Global.dEnd.Set(v.Screen.Form!dtpEnd.Value) </string>
+        <string>F.Intrinsic.Control.If(v.Global.dEnd,&lt;,v.Global.dStart) </string>
+        <string>	f.Intrinsic.UI.Msgbox("Start Date can not be AFTER Ending Date.","Invalid Selection...") </string>
+        <string>	f.Intrinsic.Control.ExitSub </string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Function.Intrinsic.Control.BlockEvents</string>
+        <string>gui.Form..Visible(False) </string>
+        <string>Function.Intrinsic.Control.UnBlockEvents</string>
+        <string>F.Intrinsic.UI.InvokeWaitDialog("Gathering information...") </string>
+        <string>Function.Intrinsic.Control.CallSub(load_wo) </string>
+        <string>F.Intrinsic.UI.CloseWaitDialog</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Load_WO_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4186_Job_Review_XLS.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdRun_Click.End</string>
+        <string />
+        <string>Program.Sub.Load_WO.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Load_WO_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.sSQL.Declare(String) </string>
+        <string>v.Local.sRet.Declare(String) </string>
+        <string>v.Local.sSuffix.Declare(String)</string>
+        <string>v.Local.sJob.Declare(String) </string>
+        <string>v.Local.sRep.Declare(String) </string>
+        <string>v.Local.bRet.Declare(Boolean) </string>
+        <string>F.Intrinsic.String.Build("Select Job, Suffix,Description,Customer,AMT_Sales,AMT_Material,Amt_Labor,Num_Hours From V_JOB_HEADER WHERE Date_Due Between '{0}' And '{1}' Order By Job,Suffix",v.Global.dStart.PervasiveDate,v.Global.dEnd.PervasiveDate,v.Local.sSQL) </string>
+        <string>F.Data.DataTable.CreateFromSQL("JobHeader","conX",v.Local.sSQL,True) </string>
+        <string>F.Data.DataTable.SetValueFormat("JobHeader",-1,"Amt_Sales","Amt_Sales","0.00") </string>
+        <string>F.Data.DataTable.SetValueFormat("JobHeader",-1,"Amt_Material","Amt_material","0.00") </string>
+        <string>F.Data.DataTable.SetValueFormat("JobHeader",-1,"Amt_Labor","AMT_LABOR","0.00") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Order_No","String")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Order_Line","String")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Quote","String")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","SHIP_ID","String")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Job_Location","String")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Rep_Contact","String") </string>
+        <string>F.Data.dataTable.AddColumn("JobHeader","Spiral_Rect","String") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Estimate_Sales","Float") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Estimate_AddDeduct","String") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Estimate_LBS","Float") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Estimate_MATERIAL","Float") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Estimate_Labor","Float") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Estimate_Hours","Float")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Estimate_Freight","Float") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","ReEstimate_Sales","String")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","ReEstimate_LBS","String")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","ReEstimate_Material","String")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","ReEstimate_Labor","String")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","ReEstimate_Hours","String")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","ReEstimate_Freight","String")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Material_Type_COnnections","String") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Fittings_Heavy_Light","String") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","SW_DW","String") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","SF_HF","String") </string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Production_Sales","Float")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Production_LBS","Float")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Production_Hours","Float")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Production_Material","Float")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Production_Labor","Float")</string>
+        <string>F.Data.DataTable.AddColumn("JobHeader","Production_Freight","Float")</string>
+        <string>'F.Data.DataTable.addExpresionColumn("JOBHEADER","Profit","Float","Production_Sales-Production_Material-Production_Labor-Production_Freight")</string>
+        <string>'F.Data.DataTable.AddExpressionColumn("Jobheader","Suffix_Excel","String","\'+[Suffix]")</string>
+        <string>F.Data.DataTable.AddExpressionColumn("Jobheader","Profit","Float","[AMT_SALES] - [AMT_MATERIAL] - [AMT_LABOR] - [Production_Freight]") </string>
+        <string>F.Data.DataTable.AddExpressionColumn("JOBHEADER","Margin","Float","IIF([AMT_Sales] &gt; 0,[Profit] / [AMT_SALES],0)") </string>
+        <string>'loop through datatable. </string>
+        <string>F.Intrinsic.Control.For(v.global.iC,0,v.dataTable.JobHeader.RowCount--,1)</string>
+        <string>	'clear out sret for our sprirla/rect column</string>
+        <string>	v.Local.sRet.Set("") </string>
+        <string>	F.Intrinsic.UI.ChangeWaitStatus("Gathering data....",v.Global.iC,0,v.datatable.jobheader.rowcount--) </string>
+        <string>	'Get Sales Order Number. </string>
+        <string>	F.Intrinsic.String.Build("Select Order_NO,Order_Line, ShipTo_ID From V_Order_TO_WO Where Job = '{0}' And Suffix = '{1}'",v.DataTable.JobHeader(v.Global.ic).Job!FieldValtrim,v.DataTable.Jobheader(v.Global.iC).Suffix!FieldValTrim,v.Local.sSQL) </string>
+        <string>	F.ODBC.Connection!conX.OpenLocalRecordsetRO("rstOrder",v.Local.sSQL) </string>
+        <string>	F.Intrinsic.Control.If(v.ODBC.conX!rstOrder.EOF,=,False) </string>
+        <string>		F.Data.DataTable.SetValue("JOBHEADER",v.Global.iC,"Order_NO",v.ODBC.conX!rstOrder.FieldValTrim!ORder_NO) </string>
+        <string>		F.Data.DataTable.SetValue("JOBHEADER",v.Global.iC,"Order_Line",v.ODBC.conX!rstOrder.FieldValTrim!ORder_Line) </string>
+        <string>		F.Data.DataTable.SetValue("JobHeader",v.Global.iC,"Ship_ID",v.ODBC.conX!rstOrder.FieldValTrim!ShipTo_ID) 		</string>
+        <string>	Function.Intrinsic.Control.EndIf</string>
+        <string>	F.ODBC.conX!rstOrder.Close </string>
+        <string>	'Get Location </string>
+        <string>	F.Intrinsic.String.Build("Select City_Ship,State_Ship From V_Order_Ship_To Where Order_NO = '{0}'",v.DataTable.JobHeader(v.Global.IC).Order_NO!FieldValTrim,v.Local.sSQL) </string>
+        <string>	f.ODBC.Connection!conX.OpenLocalRecordsetRO("rst",v.Local.sSQL) </string>
+        <string>	F.Intrinsic.Control.If(v.ODBC.conX!rst.EOF,=,False) </string>
+        <string>		F.Intrinsic.String.Build("{0}, {1}",v.ODBC.conX!rst.FieldValTrim!City_Ship,v.ODBC.conX!rst.FieldValTrim!State_Ship,v.Local.sSQL) </string>
+        <string>		F.Data.DataTable.SetValue("Jobheader",v.Global.iC,"Job_Location",v.Local.sSQL) </string>
+        <string>	Function.Intrinsic.Control.EndIf</string>
+        <string>	f.ODBC.conX!rst.Close</string>
+        <string>	'Replace the customer number with their actual name. </string>
+        <string>	F.Intrinsic.String.Build("Select Name_Customer From V_Customer_Master Where Customer = '{0}'",v.dataTable.JobHeader(v.Global.iC).Customer!FieldValtrim,v.Local.sSQL) </string>
+        <string>	F.ODBC.Connection!conX.OpenLocalRecordsetRO("rst",v.Local.sSQL) </string>
+        <string>	F.Intrinsic.Control.If(v.ODBC.conX!rst.EOF,=,False) </string>
+        <string>		'update the value </string>
+        <string>		F.Data.DataTable.SetValue("JobHeader",v.Global.iC,"Customer",v.ODBC.conX!rst.FieldValTrim!Name_Customer)</string>
+        <string>	Function.Intrinsic.Control.EndIf</string>
+        <string>	f.ODBC.conX!rst.Close </string>
+        <string>	'Order Contact</string>
+        <string>	F.Intrinsic.String.Build("Select Contact From V_Order_Bill_To Where Order_NO = '{0}'",v.DataTable.JobHeader(v.Global.IC).Order_NO!FieldValTrim,v.Local.sSQL) </string>
+        <string>	f.ODBC.Connection!conX.OpenLocalRecordsetRO("rst",v.Local.sSQL) </string>
+        <string>	F.Intrinsic.Control.If(v.ODBC.conX!rst.EOF,=,False) </string>
+        <string>		F.data.datatable.setvalue("Jobheader",v.Global.iC,"REp_Contact",v.ODBC.conX!rst.FieldValTrim!contact) </string>
+        <string>	Function.Intrinsic.Control.EndIf</string>
+        <string>	f.ODBC.conX!rst.Close </string>
+        <string>	'figure out what our letter value is in our suffic. </string>
+        <string>'	F.Intrinsic.String.RegExMatch(v.datatable.Jobheader(v.Global.iC).Suffix!FieldValtrim,"[\d]",True,v.Local.sRet)</string>
+        <string>'	Function.Intrinsic.Control.If(v.Local.sRet.Trim,&lt;&gt;,"") </string>
+        <string>'		f.Intrinsic.String.Split(v.Local.sRet,"*!*",v.Local.sret) </string>
+        <string>'		Function.Intrinsic.Control.SelectCase(V.Local.sRet(1).Trim) </string>
+        <string>'			Function.Intrinsic.Control.Case("S") 	</string>
+        <string>'				v.Local.sRet.Set("Spriral") </string>
+        <string>'			Function.Intrinsic.Control.Case("R") </string>
+        <string>'				v.Local.sRet.Set("Rect") </string>
+        <string>'			Function.Intrinsic.Control.Case("RW") </string>
+        <string>'				v.Local.sret.Set("ReWork") </string>
+        <string>'			Function.Intrinsic.Control.CaseElse </string>
+        <string>'				v.Local.sRet.set("")</string>
+        <string>'		Function.Intrinsic.Control.EndSelect </string>
+        <string>'	Function.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.String.IsInString(v.datatable.Jobheader(v.Global.iC).Suffix!FieldValtrim,"S",False,v.Local.bRet)</string>
+        <string>	F.Intrinsic.Control.If(v.Local.bRet,=,True) </string>
+        <string>		'set to Sprial </string>
+        <string>		v.Local.sRet.Set("Spiral") </string>
+        <string>	Function.Intrinsic.Control.EndIf</string>
+        <string>		F.Intrinsic.String.IsInString(v.datatable.JobHeader(v.Global.iC).Suffix.fieldvaltrim,"R",False,v.Local.bRet) </string>
+        <string>	Function.Intrinsic.Control.If(v.Local.bRet,=,True) </string>
+        <string>		v.Local.sRet.Set("Rect") </string>
+        <string>	Function.Intrinsic.Control.EndIf </string>
+        <string>	F.Intrinsic.String.IsInString(v.datatable.JobHeader(v.Global.iC).Suffix.fieldvaltrim,"RW",False,v.Local.bRet) </string>
+        <string>	Function.Intrinsic.Control.If(v.Local.bRet,=,True) </string>
+        <string>		v.Local.sRet.Set("ReWork")	</string>
+        <string>	Function.Intrinsic.Control.EndIf</string>
+        <string>	f.data.datatable.SetValue("JObHeader",v.Global.ic,"Spiral_Rect",v.Local.sRet.Trim) </string>
+        <string>'go through each and call my subs. </string>
+        <string>	Function.Intrinsic.Control.CallSub(get_estimate)  </string>
+        <string>	Function.Intrinsic.Control.CallSub(get_reestimate) 	</string>
+        <string>	F.Intrinsic.String.Build("'{0}",v.datatable.jobheader(v.Global.iC).Job.fieldvaltrim,v.Local.sJob)	</string>
+        <string>	F.Intrinsic.String.Build("'{0}",v.datatable.jobheader(v.Global.iC).Suffix.fieldvaltrim,v.Local.sSuffix)	</string>
+        <string>	F.Intrinsic.String.Build("'{0}",v.datatable.jobheader(v.Global.iC).Customer.fieldvaltrim,v.Local.sRep)	</string>
+        <string>	F.Data.DataTable.SetValue("JobHeader",v.Global.iC,"Job",v.local.sJob)</string>
+        <string>	F.data.DataTable.SetValue("Jobheader",v.Global.iC,"Suffix",v.Local.sSuffix) </string>
+        <string>	F.data.DataTable.SetValue("Jobheader",v.Global.iC,"Customer",v.Local.sREp) </string>
+        <string>F.Intrinsic.Control.Next(v.global.iC) </string>
+        <string>'create DataView from DataTable. </string>
+        <string>F.data.DataView.Create("JOBHEADER","JOBHEADER")</string>
+        <string>'When we are done write out spreadsheet. </string>
+        <string>Function.Intrinsic.Control.CallSub(write_spreadsheet)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Load_WO_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4186_Job_Review_XLS.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Load_WO.End</string>
+        <string />
+        <string>Program.Sub.Get_Estimate.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Load_WO_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.sSQL.Declare(String) </string>
+        <string>'Get Quote Number from Order Header. </string>
+        <string>F.Intrinsic.String.Build("Select * From ORder_Header Where Order_NO = '{0}'",v.dataTable.JobHeader(v.Global.iC).Order_NO!FieldvalTrim,v.Local.sSQL) </string>
+        <string>F.ODBC.Connection!conX.OpenLocalRecordsetRO("rstQ",v.Local.sSQL) 	</string>
+        <string>Function.Intrinsic.Control.If(v.ODBC.conX!rstQ.EOF,=,False) </string>
+        <string>'set ship_ID</string>
+        <string>	'Get the extension amount. </string>
+        <string>	F.Intrinsic.String.Build("Select * From V_Quote_Lines Where Quote_NO = '{0}' And Record_No = '{1}'",v.ODBC.conX!rstQ.FieldValTrim!Quote,v.datatable.JobHeader(v.Global.ic).Order_Line!FieldValTrim,v.Local.sSQL) </string>
+        <string>	F.ODBC.Connection!conX.OpenLocalRecordsetRO("rst",v.Local.sSQL) </string>
+        <string>	F.Intrinsic.Control.If(v.ODBC.conx!rst.EOF,&lt;&gt;,True) </string>
+        <string>		F.Data.DataTable.SetValue("JOBHEADER",v.Global.iC,"Estimate_Sales",v.ODBC.conX!rst.fieldvalTrim!Extension) </string>
+        <string>		F.Data.DataTable.SetValue("JOBHEADER",v.Global.iC,"Estimate_LBS",v.ODBC.conX!rst.FieldValTrim!Weight) </string>
+        <string>	Function.Intrinsic.Control.EndIf</string>
+        <string>	f.ODBC.conX!rst.Close </string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>F.ODBC.conX!rstQ.Close </string>
+        <string>'Get Add/Deduc t. INfor 1 field on the Order Line </string>
+        <string>F.Intrinsic.String.Build("Select * from V_ORDER_LINES WHERE ORDER_NO = '{0}' ANd Record_No = '{1}'",v.dataTable.JobHeader(v.Global.iC).Order_NO!FieldvalTrim,v.dataTable.JobHeader(v.Global.iC).Order_Line!FieldvalTrim,v.Local.sSQL) </string>
+        <string>F.ODBC.Connection!conX.OpenLocalRecordsetRO("rst",v.Local.sSQL) </string>
+        <string>F.Intrinsic.Control.If(v.ODBC.conX!rst.EOF,=,False) </string>
+        <string>	F.Data.DataTable.SetValue("JOBHEADER",v.Global.iC,"Estimate_AddDeduct",v.ODBC.conX!rst.FieldValTrim!Info_1) </string>
+        <string>	'get other information thats within order lines. </string>
+        <string>	'Fittings 'SW/DW and SFHF</string>
+        <string>	F.data.DataTable.SetValue("JOBHEADER",v.Global.iC,"Fittings_Heavy_Light",v.ODBC.conX!rst.FieldValTrim!User_1)</string>
+        <string>	F.data.DataTable.SetValue("JOBHEADER",v.Global.iC,"SW_DW",v.ODBC.conX!rst.FieldValTrim!User_2)</string>
+        <string>	F.data.DataTable.SetValue("JOBHEADER",v.Global.iC,"SF_HF",v.ODBC.conX!rst.FieldValTrim!User_3)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>f.ODBC.conX!rst.Close </string>
+        <string>'Get Summed Values from Estimated within job_Operation. </string>
+        <string>'Material</string>
+        <string>F.Intrinsic.String.Build("Select Job,Suffix,LMO,Sum(Dollars_Estimated) As Dollars_Est, Sum(Dollars_Actual) As Dollars_Act,Sum(Hours_Estimated) As HRS_Estimated, Sum(Hours_Actual) As HRS_Actual From V_JOB_Operations WHERE Job = '{0}' And Suffix = '{1}' And LMO &lt;&gt; 'C' And LMO &lt;&gt; 'Z' Group by Job,Suffix,LMO order By Job,Suffix, LMO",v.dataTable.JobHeader(v.Global.iC).Job!FieldvalTrim,v.dataTable.JobHeader(v.Global.iC).Suffix!FieldvalTrim,v.Local.sSQL)</string>
+        <string>F.ODBC.Connection!conX.OpenLocalRecordsetRO("rst",v.Local.sSQL) </string>
+        <string>F.Intrinsic.Control.DoUntil(v.ODBC.conX!rst.EOF,=,True) </string>
+        <string>	Function.Intrinsic.Control.SelectCase(v.ODBC.conX!rst.FieldValTrim!LMO) </string>
+        <string>		Function.Intrinsic.Control.Case("M") </string>
+        <string>			'This is the estimated Hours value </string>
+        <string>			F.Data.DataTable.SetValue("JOBHEADER",v.Global.iC,"Estimate_MATERIAL",v.ODBC.conX!rst.FieldValFloat!Dollars_Est) </string>
+        <string>			'This is the actual units issued to the work order.</string>
+        <string>			F.Data.DataTable.SetValue("JOBHEADER",v.Global.iC,"Production_LBS",v.ODBC.conX!rst.FieldValFloat!hrs_actual) 			</string>
+        <string>		Function.Intrinsic.Control.Case("L") </string>
+        <string>			'Estimated labor value for the operations. </string>
+        <string>			F.Data.DataTable.SetValue("JOBHEADER",V.Global.iC,"Estimate_Labor",v.ODBC.conX!rst.FieldValFloat!Dollars_Est) 			</string>
+        <string>			F.Data.DataTable.SetValue("JobHeader",v.Global.iC,"Estimate_Hours",v.ODBC.conX!rst.FieldValFloat!HRS_Estimated)</string>
+        <string>		Function.Intrinsic.Control.Case("O") </string>
+        <string>			'Estimated Outside (Freight) </string>
+        <string>			F.Data.DataTable.SetValue("JOBHEADER",v.Global.iC,"Estimate_Freight",v.ODBC.conX!rst.FieldValFloat!Dollars_Est)</string>
+        <string>			F.data.DataTable.SetValue("JobHEader",v.Global.iC,"Production_Freight",v.ODBC.conX!rst.FieldValFloat!Dollars_Act)</string>
+        <string>	Function.Intrinsic.Control.EndSelect		</string>
+        <string>	F.ODBC.conX!rst.MoveNext 	</string>
+        <string>Function.Intrinsic.Control.Loop </string>
+        <string>F.ODBC.conX!rst.Close </string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Load_WO_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4186_Job_Review_XLS.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload) </string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Get_Estimate.End</string>
+        <string />
+        <string>Program.Sub.Get_ReEstimate.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Get_ReEstimate_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.sSQL.Declare(String) </string>
+        <string>'Here we are Getting The ReEstimate Portion of the Spreadsheet. </string>
+        <string>'And a few other things</string>
+        <string>'Goes into WO_USER_FLDS </string>
+        <string>F.Intrinsic.String.Build("Select User_1,User_2,User_3,User_4,user_5,User_6,User_7 From WO_USER_FLDS Where Job = '{0}' And Suffix = '{1}'",v.DataTable.JobHeader(v.Global.iC).Job!FieldValTrim,v.DataTable.JobHeader(v.Global.iC).Suffix!FieldValTrim,v.Local.sSQL) </string>
+        <string>F.ODBC.Connection!conX.OpenLocalRecordsetRO("rst",v.Local.sSQL) </string>
+        <string>F.Intrinsic.Control.If(v.ODBC.conX!rst.EOF,&lt;&gt;,True) </string>
+        <string>	F.Data.DataTable.SetValue("JOBHEADER",v.Global.iC,"ReEstimate_Sales",v.ODBC.conX!rst.FieldValTrim!User_1) </string>
+        <string>	F.Data.DataTable.SetValue("JobHeader",v.Global.iC,"ReEstimate_LBS",v.ODBC.conX!rst.FieldValTrim!User_2) </string>
+        <string>	F.Data.DataTable.SetValue("JObHeader",v.Global.iC,"ReEstimate_Material",v.ODBC.conX!rst.FieldValTrim!User_3) </string>
+        <string>	F.Data.DataTable.SetValue("JobHeader",V.Global.iC,"ReEstimate_Labor",v.ODBC.conX!rst.FieldValTrim!User_4)</string>
+        <string>	F.Data.DataTable.SetValue("Jobheader",v.Global.iC,"ReEstimate_Hours",v.ODBC.conX!rst.FieldValTrim!User_5) </string>
+        <string>	F.Data.DataTable.SetValue("JobHeader",v.Global.iC,"ReEstimate_Freight",v.ODBC.conX!rst.FieldValTrim!User_6) </string>
+        <string>	'customer said it should be from user 7 not 8, direct incorrelation from quote.</string>
+        <string>	F.Data.DataTable.SetValue("JobHeader",v.Global.iC,"Material_Type_Connections",v.ODBC.conX!rst.FieldValTrim!User_7) </string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.ODBC.conX!rst.Close </string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Get_ReEstimate_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4186_Job_Review_XLS.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Get_ReEstimate.End</string>
+        <string />
+        <string>Program.Sub.Write_Spreadsheet.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Write_Spreadsheet_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.bEx.Declare(Boolean) </string>
+        <string>v.Local.sPath.Declare(String) </string>
+        <string>v.Local.sFQN.Declare(String) </string>
+        <string>v.Local.sFileName.Declare(String) </string>
+        <string>v.Local.iC.Declare(Long,1) </string>
+        <string>v.Local.sTemplate.Declare(String) </string>
+        <string>v.Local.sSpreadsheet.Declare(String) </string>
+        <string>v.Local.sCols.Declare(String) </string>
+        <string>v.Local.sV.Declare(String) </string>
+        <string>v.Local.sCols.Set("JOB*!*Spiral_rect*!*Suffix*!*Description*!*Job_location*!*Customer*!*Rep_Contact*!*Estimate_Sales*!*Estimate_AddDeduct*!*Estimate_LBS*!*Estimate_Material*!*Estimate_Labor*!*Estimate_Hours*!*Estimate_Freight*!*ReEstimate_Sales*!*REEstimate_LBS*!*Reestimate_Material*!*REEstimate_Labor*!*REestimate_Hours*!*REEstimate_Freight") </string>
+        <string>F.Intrinsic.String.Build("{0}*!*Material_Type_Connections*!*Fittings_Heavy_Light*!*SW_DW*!*SF_HF*!*AMT_Sales*!*production_LBS*!*AMT_MATERIAL*!*AMT_LABOR*!*NUM_HOURS*!*Production_FREIGHT*!*Profit*!*Margin",v.Local.scols,v.Local.sCols)</string>
+        <string>'Make sure directory exists. </string>
+        <string>F.Intrinsic.String.Build("{0}\Export",v.Caller.BusintDir,v.Local.sPath) </string>
+        <string>F.Intrinsic.File.DirExists(v.Local.sPath,v.Local.bEx) </string>
+        <string>F.Intrinsic.Control.If(v.Local.bEx,=,False) </string>
+        <string>	f.Intrinsic.File.CreateDir(v.Local.sPath) </string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.String.Build("{0}\JobReview",v.Local.sPath,v.Local.sPath) </string>
+        <string>F.Intrinsic.File.DirExists(v.Local.sPath,v.Local.bEx) </string>
+        <string>F.Intrinsic.Control.If(v.Local.bEx,=,False) </string>
+        <string>	f.Intrinsic.File.CreateDir(v.Local.sPath) </string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.String.Build("Job_Review_Report_{0}.xlsx",v.Ambient.Date,v.Local.sfileName) </string>
+        <string>F.Intrinsic.File.MakeFileNameFriendlY(v.Local.sFileName,v.Local.sFileName) </string>
+        <string>F.Intrinsic.String.Build("{0}\{1}",v.Local.sPath,v.Local.sFileName,v.Local.sFQN)</string>
+        <string>'Make sure that filenameof the same name doesn't exist. If so create new rev on filename. </string>
+        <string>F.Intrinsic.File.Exists(v.Local.sFQN,v.Local.bEx) </string>
+        <string>F.Intrinsic.Control.DoUntil(v.Local.bEx,=,False) </string>
+        <string>	F.Intrinsic.String.Build("V{1}_{0}",v.Local.sFileName,v.Local.iC,v.Local.sV) </string>
+        <string>	F.Intrinsic.String.Build("{0}\{1}",v.Local.sPath,v.Local.sV,v.Local.sFQN)</string>
+        <string>	F.Intrinsic.File.Exists(v.Local.sFQN,v.Local.bEx) 	</string>
+        <string>	f.Intrinsic.Math.Add(v.Local.iC,1,v.Local.iC)</string>
+        <string>F.Intrinsic.Control.Loop </string>
+        <string>'Does our Template Spreadsheet exist. </string>
+        <string>'stored in Global\Plugins\GAB\GAS\GCG_4186_JOB_REVIEW_TEMPLATE.XLSX"</string>
+        <string>F.Intrinsic.String.Build("{0}\GAB\GAS\GCG_4186_JOB_REVIEW_TEMPLATE.XLSX",v.Caller.PluginsDir,v.Local.sTemplate)</string>
+        <string>F.Intrinsic.File.Exists(v.Local.sTemplate,v.Local.bEx) </string>
+        <string>F.Data.DataView.ToString("Jobheader","Jobheader",v.Local.sCols,"*!*","$!$",v.Local.sSpreadsheet) </string>
+        <string>F.Intrinsic.Control.if(v.Local.bEx,=,True) </string>
+        <string>	'create spreadsheet from Template. </string>
+        <string>	'this doesn't work in .net..... </string>
+        <string>	'index outside the array of the bounds. so bsacially d</string>
+        <string>	F.Intrinsic.String.Build("$!$$!$JOB #$!${0}",v.Local.sSpreadsheet,v.Local.sSpreadsheet) </string>
+        <string>	F.Automation.MSExcel.WriteSpreadsheet(v.Local.sFQN,v.Local.sTemplate,v.Local.sSpreadsheet) 	</string>
+        <string>Function.Intrinsic.Control.Else </string>
+        <string>	'create from non template. </string>
+        <string>	'add column names. </string>
+        <string>	v.Local.sCols.Set("*!**!**!**!**!**!**!*ESTIMATE*!**!**!**!**!**!**!*RE-ESTIMATE/PO*!**!**!**!**!**!**!*FITTINGS*!**!**!*PRODUCTION*!**!**!**!**!**!**!**!**!*")</string>
+        <string>	F.Intrinsic.String.Build("{0}$!$JOB #*!*SPIRAL/RECT*!*RELEASE*!*JOB NAME*!*JOB LOCATION*!*REP*!*REP CONTACT*!*SALES*!*ADD/DEDUCT*!*LBS*!*MATERIAL*!*LABOR*!*HOURS*!*FREIGHT*!*SALES*!*LBS*!*MATERIAL*!*LABOR*!*HOURS*!*FREIGHT*!*MATERIAL TYPE, CONNECTIONS, ETC*!*HEAVY/LITE*!*SW/DW*!*SF/HF*!*SALES*!*LBS*!*MATERIAL*!*LABOR*!*HOURS*!*FREIGHT COST*!*PROFIT*!*MARGIN*!**!*$!${1}",v.Local.sCols,v.Local.sSpreadsheet,v.Local.sSpreadsheet) </string>
+        <string>	f.Automation.MSExcel.WriteSpreadsheet(v.Local.sFQN,"",v.Local.sSpreadsheet)	</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>'if we are not running from task ask user if they want to open spreadsheet. </string>
+        <string>F.Intrinsic.Control.If(v.Ambient.isintaskscheduler,=,False) </string>
+        <string>	f.Intrinsic.Task.ShellExec(v.Caller.Handle,"OPEN",v.Local.sFQN,"","",1) </string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Write_Spreadsheet_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4186_Job_Review_XLS.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Write_Spreadsheet.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$$}$TRT$}$08/22/2016 7:53:07 AM$}$False</string>
+        <string>${$3$}$0$}$$}$0$}$-1$}$$}$12:00:00 AM$}$A GAB Script will be created that will compile a spreadsheet that contains Job Estimate, Re-Estimate, and Production information. </string>
+        <string />
+        <string>The GAB script will be setup to run nightly on the task scheduler. </string>
+        <string>Default Setup: </string>
+        <string>Frequency: Daily. </string>
+        <string>Start Time: 6:01 PM. </string>
+        <string />
+        <string>&lt;I&gt;GS Menu Mode&lt;/I&gt; </string>
+        <string />
+        <string>A New Mode will also be added to the GAB script that allows the user to run this from a custom menu item within Global Shop Menu. </string>
+        <string />
+        <string>This mode will ask the user for a start date and end date. It will be used to pull jobs that have a due date within the specified range. </string>
+        <string />
+        <string>**Note: Processing time is dependent upon the length of the date range.</string>
+        <string />
+        <string />
+        <string>The GAB script will compile all information for jobs that are due within the current year. </string>
+        <string />
+        <string>The spreadsheet will be saved in the Global\Busint\Export\JobReview directory. </string>
+        <string />
+        <string>The spreadsheet file name will be Job_Review_Report_MM_DD_YY.xlsx</string>
+        <string />
+        <string>The spreadsheet will contain only 1 sheet.</string>
+        <string />
+        <string>The Spreadsheet will contain the following Columns: </string>
+        <string>Job #</string>
+        <string>Spiral/Rect</string>
+        <string>Release </string>
+        <string>Job Name</string>
+        <string>Job Location </string>
+        <string>Rep</string>
+        <string>Rep Contact</string>
+        <string>Estimate: </string>
+        <string>-Sales</string>
+        <string>-Add/Deduct</string>
+        <string>-LBS</string>
+        <string>-Material</string>
+        <string>-Labor</string>
+        <string>-Hours</string>
+        <string>-Freight</string>
+        <string>RE-Estimate/PO</string>
+        <string>-Sales</string>
+        <string>-LBS</string>
+        <string>-Material</string>
+        <string>-Labor</string>
+        <string>-Hours</string>
+        <string>-Freight</string>
+        <string>Material Type, Connections, Etc. </string>
+        <string>Fittings Heavy /Lite</string>
+        <string>SW/DW</string>
+        <string>Production:</string>
+        <string>-Sales</string>
+        <string>-LBS</string>
+        <string>-Material</string>
+        <string>-Labor</string>
+        <string>-Hours</string>
+        <string>-Freight Cost</string>
+        <string>-Profit</string>
+        <string>-Margin</string>
+        <string>Program.Sub.Comments.End</string>
+        <string />
+        <string />
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>325</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>26</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>28</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>32</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>34</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>62</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>64</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>79</Y>
+        </EndPoint>
+        <Text>Program.Sub.Unload</Text>
+        <DisplayText>Program.Sub.Unload</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>81</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>106</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdRun_Click</Text>
+        <DisplayText>Program.Sub.cmdRun_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>108</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>244</Y>
+        </EndPoint>
+        <Text>Program.Sub.Load_WO</Text>
+        <DisplayText>Program.Sub.Load_WO</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>246</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>308</Y>
+        </EndPoint>
+        <Text>Program.Sub.Get_Estimate</Text>
+        <DisplayText>Program.Sub.Get_Estimate</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>310</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>338</Y>
+        </EndPoint>
+        <Text>Program.Sub.Get_ReEstimate</Text>
+        <DisplayText>Program.Sub.Get_ReEstimate</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>340</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>406</Y>
+        </EndPoint>
+        <Text>Program.Sub.Write_Spreadsheet</Text>
+        <DisplayText>Program.Sub.Write_Spreadsheet</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>408</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>469</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
